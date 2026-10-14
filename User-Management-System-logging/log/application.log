@@ -1,0 +1,114 @@
+2026-10-14T17:48:39.385+05:30  INFO 35504 --- [User-Management-System] [restartedMain] c.e.u.UserManagementSystemApplication    : Starting UserManagementSystemApplication using Java 21.0.6 with PID 35504 (C:\Users\CSP\Downloads\User Management System\User-Management-System\target\classes started by CSP in C:\Users\CSP\Downloads\User Management System\User-Management-System)
+2026-10-14T17:48:39.385+05:30  INFO 35504 --- [User-Management-System] [restartedMain] c.e.u.UserManagementSystemApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-10-14T17:48:39.462+05:30  INFO 35504 --- [User-Management-System] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-14T17:48:39.469+05:30  INFO 35504 --- [User-Management-System] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2026-10-14T17:48:39.516+05:30  INFO 35504 --- [User-Management-System] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-14T17:48:39.516+05:30  INFO 35504 --- [User-Management-System] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-14T17:48:39.516+05:30  INFO 35504 --- [User-Management-System] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-14T17:48:39.529+05:30  INFO 35504 --- [User-Management-System] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 143 ms
+2026-10-14T17:48:39.545+05:30  INFO 35504 --- [User-Management-System] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-14T17:48:39.563+05:30  INFO 35504 --- [User-Management-System] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-14T17:48:39.563+05:30  INFO 35504 --- [User-Management-System] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-10-14T17:48:39.709+05:30  INFO 35504 --- [User-Management-System] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@13039000
+2026-10-14T17:48:39.709+05:30  INFO 35504 --- [User-Management-System] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-10-14T17:48:39.715+05:30  WARN 35504 --- [User-Management-System] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-14T17:48:39.721+05:30  INFO 35504 --- [User-Management-System] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/spring]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.6
+	Default catalog/schema: spring/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-14T17:48:39.755+05:30  INFO 35504 --- [User-Management-System] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-14T17:48:39.767+05:30  INFO 35504 --- [User-Management-System] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-14T17:48:39.793+05:30  WARN 35504 --- [User-Management-System] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-14T17:48:39.826+05:30  INFO 35504 --- [User-Management-System] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-14T17:48:39.827+05:30  INFO 35504 --- [User-Management-System] [restartedMain] c.e.u.UserManagementSystemApplication    : Started UserManagementSystemApplication in 0.47 seconds (process running for 2668.671)
+2026-10-14T17:48:39.828+05:30  INFO 35504 --- [User-Management-System] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-14T17:48:50.261+05:30  INFO 14948 --- [User-Management-System] [restartedMain] c.e.u.UserManagementSystemApplication    : Starting UserManagementSystemApplication using Java 21.0.6 with PID 14948 (C:\Users\CSP\Downloads\User Management System\User-Management-System\target\classes started by CSP in C:\Users\CSP\Downloads\User Management System\User-Management-System)
+2026-10-14T17:48:50.264+05:30  INFO 14948 --- [User-Management-System] [restartedMain] c.e.u.UserManagementSystemApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-10-14T17:48:50.300+05:30  INFO 14948 --- [User-Management-System] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-14T17:48:50.300+05:30  INFO 14948 --- [User-Management-System] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-14T17:48:50.805+05:30  INFO 14948 --- [User-Management-System] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-14T17:48:50.857+05:30  INFO 14948 --- [User-Management-System] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2026-10-14T17:48:51.446+05:30  INFO 14948 --- [User-Management-System] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-14T17:48:51.465+05:30  INFO 14948 --- [User-Management-System] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-14T17:48:51.465+05:30  INFO 14948 --- [User-Management-System] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-14T17:48:51.505+05:30  INFO 14948 --- [User-Management-System] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1204 ms
+2026-10-14T17:48:51.665+05:30  INFO 14948 --- [User-Management-System] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-14T17:48:51.706+05:30  INFO 14948 --- [User-Management-System] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.24.Final
+2026-10-14T17:48:52.097+05:30  INFO 14948 --- [User-Management-System] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-14T17:48:52.121+05:30  INFO 14948 --- [User-Management-System] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-14T17:48:52.388+05:30  INFO 14948 --- [User-Management-System] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c259780
+2026-10-14T17:48:52.390+05:30  INFO 14948 --- [User-Management-System] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-14T17:48:52.417+05:30  WARN 14948 --- [User-Management-System] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-14T17:48:52.436+05:30  INFO 14948 --- [User-Management-System] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/spring]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.6
+	Default catalog/schema: spring/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-14T17:48:53.000+05:30  INFO 14948 --- [User-Management-System] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-14T17:48:53.040+05:30  INFO 14948 --- [User-Management-System] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-14T17:48:53.104+05:30  INFO 14948 --- [User-Management-System] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-14T17:48:53.205+05:30  WARN 14948 --- [User-Management-System] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-14T17:48:53.447+05:30  INFO 14948 --- [User-Management-System] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-14T17:48:53.453+05:30  INFO 14948 --- [User-Management-System] [restartedMain] c.e.u.UserManagementSystemApplication    : Started UserManagementSystemApplication in 3.555 seconds (process running for 3.914)
+2026-10-14T17:49:27.905+05:30  INFO 14948 --- [User-Management-System] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 16 class path changes (0 additions, 0 deletions, 16 modifications)
+2026-10-14T17:49:27.908+05:30  INFO 14948 --- [User-Management-System] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-14T17:49:27.912+05:30  INFO 14948 --- [User-Management-System] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-14T17:49:27.914+05:30  INFO 14948 --- [User-Management-System] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-14T17:49:27.916+05:30  INFO 14948 --- [User-Management-System] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-14T17:49:27.918+05:30  INFO 14948 --- [User-Management-System] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-14T17:49:27.981+05:30  INFO 14948 --- [User-Management-System] [restartedMain] c.e.u.UserManagementSystemApplication    : Starting UserManagementSystemApplication using Java 21.0.6 with PID 14948 (C:\Users\CSP\Downloads\User Management System\User-Management-System\target\classes started by CSP in C:\Users\CSP\Downloads\User Management System\User-Management-System)
+2026-10-14T17:49:27.981+05:30  INFO 14948 --- [User-Management-System] [restartedMain] c.e.u.UserManagementSystemApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-10-14T17:49:28.083+05:30  INFO 14948 --- [User-Management-System] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-14T17:49:28.093+05:30  INFO 14948 --- [User-Management-System] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2026-10-14T17:49:28.151+05:30  INFO 14948 --- [User-Management-System] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-14T17:49:28.152+05:30  INFO 14948 --- [User-Management-System] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-14T17:49:28.152+05:30  INFO 14948 --- [User-Management-System] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-14T17:49:28.165+05:30  INFO 14948 --- [User-Management-System] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 182 ms
+2026-10-14T17:49:28.188+05:30  INFO 14948 --- [User-Management-System] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-14T17:49:28.210+05:30  INFO 14948 --- [User-Management-System] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-14T17:49:28.211+05:30  INFO 14948 --- [User-Management-System] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-10-14T17:49:28.252+05:30  INFO 14948 --- [User-Management-System] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@6c05d8a1
+2026-10-14T17:49:28.252+05:30  INFO 14948 --- [User-Management-System] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-10-14T17:49:28.259+05:30  WARN 14948 --- [User-Management-System] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-14T17:49:28.267+05:30  INFO 14948 --- [User-Management-System] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/spring]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.6
+	Default catalog/schema: spring/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-14T17:49:28.306+05:30  INFO 14948 --- [User-Management-System] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-14T17:49:28.319+05:30  INFO 14948 --- [User-Management-System] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-14T17:49:28.357+05:30  WARN 14948 --- [User-Management-System] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-14T17:49:28.411+05:30  INFO 14948 --- [User-Management-System] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-14T17:49:28.413+05:30  INFO 14948 --- [User-Management-System] [restartedMain] c.e.u.UserManagementSystemApplication    : Started UserManagementSystemApplication in 0.451 seconds (process running for 38.873)
+2026-10-14T17:49:28.415+05:30  INFO 14948 --- [User-Management-System] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-14T17:50:03.830+05:30  INFO 14948 --- [User-Management-System] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-14T17:50:03.831+05:30  INFO 14948 --- [User-Management-System] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-14T17:50:03.833+05:30  INFO 14948 --- [User-Management-System] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-10-14T17:50:03.978+05:30  INFO 14948 --- [User-Management-System] [http-nio-8080-exec-2] c.e.u.controller.UserController          : Request is Received to Create User
+2026-10-14T17:50:03.978+05:30  INFO 14948 --- [User-Management-System] [http-nio-8080-exec-2] c.e.u.service.UserService                : Request is Received in Service from Controller
+2026-10-14T17:50:03.979+05:30  INFO 14948 --- [User-Management-System] [http-nio-8080-exec-2] c.e.u.service.UserService                : User is Saved successfully in database
+2026-10-14T17:50:04.051+05:30  INFO 14948 --- [User-Management-System] [http-nio-8080-exec-2] c.e.u.controller.UserController          : We got saved user and will be returned in the Response
+2026-10-14T18:45:26.340+05:30  WARN 14948 --- [User-Management-System] [HikariPool-2:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=45m27s877ms226µs800ns).
+2026-10-14T19:17:21.438+05:30  WARN 14948 --- [User-Management-System] [HikariPool-2:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=32m9s559ms811µs500ns).
